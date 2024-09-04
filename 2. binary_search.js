@@ -4,7 +4,7 @@
 // Oн работает только с отсортированными массивами, поэтому может потребоваться некоторая
 // предварительная обработка наших данных для их сортировки.
 
-const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 let count = 0;
 
 function binarySearch(arr, item) {
@@ -33,5 +33,5 @@ function binarySearch(arr, item) {
     return position;
 }
 
-console.log(binarySearch(arr, 18));
-console.log(count);
+console.log(binarySearch(array, 18));
+console.log("count=", count); // количество операций

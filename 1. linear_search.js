@@ -5,7 +5,7 @@
 // Он начинает с первого элемента и продолжает проверку до тех пор,
 // пока не будет найден искомый элемент или пока не закончится весь набор данных.
 
-const arr = [1, 2, 11, 3, 9, 12, 6, 4, 8, 5];
+const array = [1, 2, 11, 3, 9, 12, 6, 4, 8, 5];
 let count = 0;
 
 function linearSearch(arr, item) {
@@ -20,5 +20,5 @@ function linearSearch(arr, item) {
     return -1; // иначе -1
 }
 
-console.log(linearSearch(arr, 11));
+console.log(linearSearch(array, 11));
 console.log("count=", count); // количество операций
